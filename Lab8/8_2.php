@@ -56,3 +56,8 @@ echo "Area of Square: " . $square->area() . "<br>";
 echo "Area of Rectangle: " . $rectangle->area() . "<br>";
 
 ?>
+
+<?php
+     echo "<hr>Today is " . date("d/m/Y") . "<br>";
+     echo "The time is " . date("h:i:sa");
+    ?>

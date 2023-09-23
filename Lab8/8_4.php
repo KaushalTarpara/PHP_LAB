@@ -66,9 +66,13 @@ class Purchase extends Item {
     }
 }
 
-// Create an object of the Purchase class
+
 $purchase = new Purchase("Laptop", 12345, 1, 2);
 
-// Display the details of the purchase
+
 $purchase->displayPurchase();
 ?>
+<?php
+     echo "<hr>Today is " . date("d/m/Y") . "<br>";
+     echo "The time is " . date("h:i:sa");
+    ?>

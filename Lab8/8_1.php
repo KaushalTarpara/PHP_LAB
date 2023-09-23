@@ -39,10 +39,15 @@ class Student extends Course {
     }
 }
 
-// Create a new Student object
-$student = new Student("Computer Science", 4, 123, "John Doe", [80, 85, 90]);
 
-// Display the student information
+$student = new Student("MCA",2, "22MAPOG010", "Kaushal Tarpara", [80, 85, 90]);
+
+
 $student->display();
 
 ?>
+
+<?php
+     echo "<hr>Today is " . date("d/m/Y") . "<br>";
+     echo "The time is " . date("h:i:sa");
+    ?>
