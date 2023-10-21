@@ -1,0 +1,5 @@
+<?php
+
+$prd = "some data";
+
+?>
